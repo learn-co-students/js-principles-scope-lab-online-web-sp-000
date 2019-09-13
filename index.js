@@ -1,20 +1,20 @@
 // Write your solution in this file!
 var customerName = 'bob';
 
-function upperCaseCustomerName() {
-  customerName = customerName.toUpperCase()
+function upperCaseCustomerName()  {
+  customerName = customerName.toUpperCase();
 }
 
 function setBestCustomer() {
-  bestCustomer = 'not bob'
+  bestCustomer = 'not bob';
 }
 
 function overwriteBestCustomer() {
-  bestCustomer = 'maybe bob'
+  bestCustomer = 'maybe bob';
 }
 
-const leastFavoriteCustomer = 'robert'
+const leastFavoriteCustomer = 'x';
 
 function changeLeastFavoriteCustomer() {
-  leastFavoriteCustomer = 'not robert';
+  leastFavoriteCustomer = 'y';
 }
